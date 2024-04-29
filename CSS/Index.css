@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(../Images/BG-Img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    height: 78px;
+    float: left;
+}
+
+.logo {
+    color: blue;
+    font-size: 2.4rem;
+    font-family: Arial;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.menu {
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    margin: 27px 50px 0 0;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+ul li a:hover {
+    color: blue;
+    ;
+}
+
+.search {
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+#Srch {
+    width: 200px;
+    height: 40px;
+    border: 2px solid blue;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 10px;
+    float: left;
+    background: transparent;
+    margin-top: 13px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: blue;
+    border: 2px solid blue;
+    margin-top: 13px;
+    color: white;
+    font-size: 1.2rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+#Srch:focus {
+    outline: none;
+}
+
+.content {
+    width: 1500px;
+    margin: auto;
+    height: auto;
+    color: white;
+    position: relative;
+}
+
+.content .par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.hed {
+    font-family: 'Times New Roman';
+    font-size: 3.2rem;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background: blue;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman';
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.cn a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.cn:hover {
+    background: white;
+    color: blue;
+    transition: .4s ease;
+}
+
+.content span {
+    color: blue;
+    font-family: 'Times New Roman';
+    font-size: 3.2rem;
+}
+
+.form {
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+    position: absolute;
+    top: 150px;
+    left: 1100px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2 {
+    width: 230px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    color: blue;
+    border-radius: 10px;
+    background: white;
+    font-size: 1.7rem;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input {
+    width: 240px;
+    height: 30px;
+    background: transparent;
+    border-bottom: 1 solid blue;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+
+.btnn {
+    width: 240px;
+    height: 35px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    color: white;
+    background: blue;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.btnn:hover{
+    transition: 0.4s ease;
+    background: white;
+    color: black;
+}
+
+.form .link{
+    font-family: Arial;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+.form .link a{
+    text-decoration: none;
+    color: blue;
+}
+
+.form .link a:hover{
+    color: white;
+}
+
+.form .liw{
+    font-family: Arial;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
